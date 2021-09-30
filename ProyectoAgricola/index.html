@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Natural Colombian foods S.A.S.</title>
+    <title>C.I Agricola Santa Marta S.A.S.</title>
 
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/477effcca6.js" crossorigin="anonymous"></script>
@@ -16,11 +16,15 @@
     <!-- Link css -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/main.css">
+
+
+    <!-- Icono -->
+    <link rel="shortcut icon" href="./assets/img/Logo_preview_rev_1.png">
 </head>
 <body>
 
     <!-- NAVBAR -->
-    <header class="header">
+    <header class="header" id="header">
         <nav class="navbar navbar-expand-sm navbarstyle">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -38,9 +42,10 @@
     
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#header">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Nosotros">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#nuestroEquipo">Equipo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#footer">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -53,25 +58,22 @@
     <div class="carousel slide " id="mainSlider" data-ride="carousel">
 
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item carousel-item-header active">
                 <img class="d-block w-100" src="./assets/img/frutas-carousel.jpg" alt="Imagen">
                 <div class="carousel-caption d-none d-md-block">
                     <h2 class="h1">CELERIDAD EN LOS TIEMPOS DE ENTREGA</h2>
                     <h5>Nuestro potencial es el talento humano capacitado</h5>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item carousel-item-header">
                 <img class="d-block w-100" src="./assets/img/5000-frutas.jpg" alt="Imagen">
                 <div class="carousel-caption d-none d-md-block">
                     <h2>CUMPLIMIENTO EN LA CALIDAD ESPERADA</h2>
                     <h5>estamos certificados por el INVIMA</h5>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item carousel-item-header">
                 <img class="d-block w-100" src="./assets/img/frutas_carousel2.jpg" alt="Imagen">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>PLÁTANO ENTERO PRE-FRITO/CONGELADO, TAJADA DE PLÁTANO PRE-FRITO/CONGELADO Y TOSTÓN DE PLÁTANO VERDE PRE-FRITO/CONGELADO</h2>
-                </div>
             </div>
         </div>
 
@@ -90,7 +92,7 @@
                     <div class="contenido">
                         <p class="text-center"><i class="fas fa-industry"></i></p>
                         <h6 class="text-center">Tecnologica</h6>
-                        <p class="text-center">Natural Colombian foods S.A.S., dispone de maquinarias de freído, refrigeración y congelación con tecnología de punta, confiables y de excelente rendimiento.</p>
+                        <p class="text-center">C.I Agricola Santa Marta S.A.S., dispone de maquinarias de freído, refrigeración y congelación con tecnología de punta, confiables y de excelente rendimiento.</p>
                     </div>
                 </div>
                 <div class="col-sm">
@@ -116,23 +118,23 @@
     <div id="nuestrosEstandares">
         <div class="container-md p-5">
             <div class="row">
-                <h2>NUESTROS ESTANDARES</h2>
+                <h2 style="color: #377A31">NUESTROS ESTANDARES</h2>
             </div>
 
             <div class="row mt-5">
                 <div class="col-sm">
                     <div class="row mt-3">
                         <div class="col-2">
-                            <i class="far fa-check-circle"></i>
+                            <i class="far fa-check-circle" style="color: #0B7F02;"></i>
                         </div>
                         <div class="col">
                             <h6>HIGIENE</h6>
-                            <p>En cumplimiento de la normatividad legal vigente, nuestra empresa NATURAL COLOMBIAN FOODS S.A.S. Comercializadora Internacional, posee Concepto Sanitario Favorable Vigente sin pendientes, expedido por la Secretaría de Salud Distrital de Santa Marta D.T.C.H.</p>
+                            <p>En cumplimiento de la normatividad legal vigente, nuestra empresa C.I Agricola Santa Marta S.A.S. Comercializadora Internacional, posee Concepto Sanitario Favorable Vigente sin pendientes, expedido por la Secretaría de Salud Distrital de Santa Marta D.T.C.H.</p>
                         </div>
                     </div>
                     <div class="row mt-3">
                         <div class="col-2">
-                            <i class="fas fa-certificate"></i>
+                            <i class="fas fa-certificate" style="color: #0B7F02;"></i>
                         </div>
                         <div class="col">
                             <h6>CALIDAD</h6>
@@ -141,7 +143,7 @@
                     </div>
                     <div class="row mb-3">
                         <div class="col-2">
-                            <i class="fas fa-cog"></i>
+                            <i class="fas fa-cog" style="color: #0B7F02;"></i>
                         </div>
                         <div class="col">
                             <h6>INSTALACIONES</h6>
@@ -166,46 +168,127 @@
 
             <div class="row">
                 <div class="col-sm">
-                    <img src="./assets/img/DS-28.jpg" alt="Imagen" width="100%" style="border: solid 3px #FFFFFF; margin-left: 15px;">
+                    <img src="./assets/img/NuestroEquipo.jpeg" alt="Imagen" width="100%" style="border: solid 3px #FFFFFF; margin-left: 15px;">
                     <h5 class="text-center mt-2">EMPAQUES</h5>
                 </div>
                 <div class="col-sm">
-                    <img src="./assets/img/WhatsApp-Image-2019-06-25-at-5.04.04-PM.jpeg" alt="Imagen" width="100%" style="border: solid 3px #FFFFFF; margin-left: 15px;">
+                    <img src="./assets/img/NuestroEquipo2.jpeg" alt="Imagen" width="100%" style="border: solid 3px #FFFFFF; margin-left: 15px; height: 440px;">
                     <h5 class="text-center mt-2">SUPERVISION</h5>
                 </div>
                 <div class="col-sm">
-                    <img src="./assets/img/DS-14-1.jpg" alt="Imagen" width="100%" style="border: solid 3px #FFFFFF; margin-left: 15px;">
+                    <img src="./assets/img/NuestroEquipo3.jpeg" alt="Imagen" width="100%" style="border: solid 3px #FFFFFF; margin-left: 15px;">
                     <h5 class="text-center mt-2">PRODUCCION</h5>
                 </div>
             </div>
         </div>
     </div>
 
+
+    <!-- SECTION -->
+
+    <div class="catalogo">
+        <div class="container-md p-5">
+            <div class="row">
+                <h2 class="text-center" style="color: #377A31">CATALOGO</h2>
+            </div>
+
+            <div class="row mt-4">
+               <div class="col-sm">
+                   <div class="img-area">
+                       <img src="./assets/img/CarruselCard/1.jpg" alt="" width="100%">
+                   </div>
+               </div>
+               <div class="col-sm">
+                <div class="img-area">
+                    <img src="./assets/img/CarruselCard/2.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="img-area">
+                    <img src="./assets/img/CarruselCard/3.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="img-area">
+                    <img src="./assets/img/CarruselCard/4.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="img-area">
+                    <img src="./assets/img/CarruselCard/5.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="img-area">
+                    <img src="./assets/img/CarruselCard/6.png" alt="" width="100%">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="img-area">
+                    <img src="./assets/img/CarruselCard/7.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="img-area">
+                    <img src="./assets/img/CarruselCard/8.png" alt="" width="100%">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="img-area">
+                    <img src="./assets/img/CarruselCard/9.jpg" alt="" width="100%">
+                </div>
+            </div>
+
+        </div>
+        <div class="row mt-2">
+            <div class="col-sm">
+                <div class="img-area">
+                    <img src="./assets/img/CarruselCard/10.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="img-area">
+                    <img src="./assets/img/CarruselCard/11.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="img-area">
+                    <img src="./assets/img/CarruselCard/12.jpg" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     <!-- SECTION -->
 
 
-    <div class="Nosotros">
+    <div id="Nosotros" style="background-color: #ccdad2;">
         <div class="container-md p-5">
             <div class="row">
-                <h3 class="text-center mb-4">ACERCA DE NOSOTROS</h3>
+                <div class="col-sm">
+                    <h4 class="text-center" style="color: #377A31">MISIÓN</h4>
+                    <p class="text-center">Ofrecer un servicio de calidad en todo el proceso, desde la producción hasta la comercialización de fruta, adaptándonos a las necesidades de cada cliente. Del mismo modo, implicar a nuestros empleados trabajando en equipo para lograr la excelencia.</p>
+                </div>
+                <div class="col-sm">
+                    <h4 class="text-center" style="color: #377A31">VISIÓN</h4>
+                    <p class="text-center">Crecer en nuestra presencia a nivel internacional y nacional a través de la innovación, la mejora continua y la generación de valores a nuestros grupos de interés</p>
+                </div>
             </div>
 
+            <div class="row mt-3">
+                <h3 class="text-center mb-4" style="color: #377A31">ACERCA DE NOSOTROS</h3>
+            </div>
+
+
             <div class="row">
-                <div class="col-sm">
-                    <h4 class="text-center">MISIÓN</h4>
-                    <p>Ofrecer un servicio de calidad en todo el proceso, desde la producción hasta la comercialización de fruta, adaptándonos a las necesidades de cada cliente. Del mismo modo, implicar a nuestros empleados trabajando en equipo para lograr la excelencia.</p>
-                </div>
-                <div class="col-sm">
-                    <h4 class="text-center">VISIÓN</h4>
-                    <p>Crecer en nuestra presencia a nivel internacional y nacional a través de la innovación, la mejora continua y la generación de valores a nuestros grupos de interés</p>
-                </div>
+                <p class="text-center">C.I Agricola Santa Marta S.A.S. Comercializadora Internacional, es una compañía con experiencia en el manejo de la industria de alimentos propios de la región como lo es el PLÁTANO ENTERO PRE-FRITO/CONGELADO, TAJADA DE PLÁTANO PRE-FRITO/CONGELADO Y TOSTÓN DE PLÁTANO VERDE PRE-FRITO/CONGELADO, de igual manera trabajamos con pulpa de frutas congeladas, yuca congelada, entre otros productos. Todos estos con los más altos estándares de calidad en la producción, partiendo de la implementación de los principios HACCP, manual para seguridad alimentaria en defensa de los alimentos y la calidad del producto.</p>
             </div>
         </div>
     </div>
 
     <!-- FOOTER -->
 
-    <div class="footer">
+    <div class="footer" id="footer">
         <div class="container-md p-5">
             <div class="row">
                 <div class="col-sm">
@@ -218,7 +301,7 @@
                             <i class="fas fa-home" style="color: #C5C5C5;"></i>
                         </div>
                         <div class="col">
-                            <p style="color: #5C5C5C;">Zona franca industrial de Santa Marta vía a Gaira kilómetro 1/ calle 19#2A 43 oficina 106 Edificio Mirador del Parque</p>
+                            <p style="color: #5C5C5C;">Zona franca industrial de Santa Marta vía a Gaira kilómetro 1 / cr2 #14-21 piso 10 of 12</p>
                         </div>
                     </div>
                     <div class="row mb-2 mt-2">

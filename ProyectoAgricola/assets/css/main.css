@@ -1,0 +1,64 @@
+.header a{
+    color: #000000;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.header a:hover {
+    border-bottom: 1px solid black;
+}
+
+#capacidad {
+    background-color: aqua;
+}
+
+.contenido i {
+    font-size: 50px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#Imagen {
+    border: solid 3px #AAC1B5;
+}
+
+
+#nuestrosEstandares {
+    background-color: #F5F5F5;
+}
+
+#nuestrosEstandares h2 {
+    font-weight: 500;
+}
+
+#nuestrosEstandares i {
+    font-size: 50px;
+}
+
+.fila{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.colum {
+    width: 50px;
+}
+
+.contenidoEstandar {
+    margin-top: 10px;
+    margin-left: -170px;
+}
+
+#nuestroEquipo {
+    background-color: #DD9933;
+}
+
+.footer {
+    background-color: #252525;
+}
+
+.contenidoEncuentranos {
+    margin-left: -190px;
+}
+
+
